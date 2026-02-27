@@ -41,8 +41,7 @@ jobs:
 
         '
   build-check:
-    runs-on:
-      group: aws-general-8-plus
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
     - uses: actions/checkout@v3
